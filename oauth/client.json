@@ -1,0 +1,20 @@
+{
+  "client_id": "https://borski.github.io/comail/oauth/client.json",
+  "client_name": "Comail",
+  "client_uri": "https://github.com/borski/comail",
+  "logo_uri": "https://borski.github.io/comail/oauth/icon.png",
+  "application_type": "native",
+  "redirect_uris": [
+    "http://localhost/oauth/fastmail/callback",
+    "http://127.0.0.1/oauth/fastmail/callback",
+    "http://[::1]/oauth/fastmail/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
